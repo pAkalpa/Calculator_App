@@ -64,7 +64,7 @@
             android:layout_marginRight="2dp"
             android:text="/"
             android:textSize="25sp"
-            android:onClick="onDigit" />
+            android:onClick="onOperator" />
 
     </LinearLayout>
     <LinearLayout
@@ -116,7 +116,7 @@
             android:layout_marginRight="2dp"
             android:text="*"
             android:textSize="25sp"
-            android:onClick="onDigit" />
+            android:onClick="onOperator" />
 
     </LinearLayout>
     <LinearLayout
@@ -169,7 +169,7 @@
             android:layout_marginRight="2dp"
             android:text="-"
             android:textSize="25sp"
-            android:onClick="onDigit" />
+            android:onClick="onOperator" />
 
     </LinearLayout>
     <LinearLayout
@@ -188,7 +188,7 @@
             android:layout_marginRight="1dp"
             android:text="."
             android:textSize="25sp"
-            android:onClick="onDigit" />
+            android:onClick="onDecimalPoint" />
 
         <Button
             android:id="@+id/btnZero"
@@ -210,7 +210,7 @@
             android:layout_marginRight="1dp"
             android:text="CLR"
             android:textSize="25sp"
-            android:onClick="onDigit" />
+            android:onClick="onClear" />
 
         <Button
             android:id="@+id/btnAdd"
@@ -221,7 +221,7 @@
             android:layout_marginRight="2dp"
             android:text="+"
             android:textSize="25sp"
-            android:onClick="onDigit" />
+            android:onClick="onOperator" />
 
     </LinearLayout>
 
