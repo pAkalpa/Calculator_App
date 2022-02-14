@@ -13,7 +13,9 @@
         android:layout_height="250dp"
         android:textSize="48sp"
         android:maxLength="12"
-        android:background="#EFEFEF" />
+        android:background="#EFEFEF"
+        android:padding="10dp"
+        android:gravity="right|bottom|center_vertical"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -237,6 +239,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="25sp"
-            android:text="=" />
+            android:text="="
+            android:onClick="onEqual" />
     </LinearLayout>
 </LinearLayout>
